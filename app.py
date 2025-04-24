@@ -337,6 +337,3 @@ with col2:
     # Sağ sütun içeriği
     st.markdown('<div class="panel"><h3>📰 Bundle Gündem</h3><div class="scrollable-panel-content">' + "".join([f"<div class='item'>{i}</div>" for i in news_list]) + "</div></div>", unsafe_allow_html=True)
     st.markdown('<div class="panel"><h3>🌍 Son 15 Deprem (Kandilli)</h3><div class="scrollable-panel-content">' + "".join([f"<div class='item'>🗓 {q['time']} – 📍 {q['yer']} – <span class=\'highlight\'>{q['mag']}</span></div>" for q in quakes]) + "</div></div>", unsafe_allow_html=True)
-
-Add full app.py dashboard code
-
